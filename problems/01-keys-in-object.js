@@ -9,12 +9,16 @@ Examples:
 ***********************************************************************/
 
 function keysInObject(obj) {
-  // const objKeys = []
-  // for(let key in obj){
-  //   objKeys.push(key)
-  // }
-  // return objKeys
-  
+    // Solution 1:
+    // const objKeys = []
+    // for(let key in obj){
+    //   objKeys.push(key)
+    // }
+    // return objKeys
+
+    //   Solution 2:
+    return Object.keys(obj)
+
 }
 
 // let animals = {dog: 'Wolfie', cat: 'Jet', bison: 'Bilbo'}
